@@ -1,0 +1,9 @@
+working with 'dotenv' or secret data
+-stores confidential data such as passkey, uri, password, etc.
+
+1) npm install dotenv
+2) create a file '.env'
+3) define all the secret data to variables
+4) in the main file (such as app.js), import the file 
+    - require('dotenv').config()
+5) access all the variables using - process.env.VariableNAME
